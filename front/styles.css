@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: bisque;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.box, form {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 3px 3px 3px 5px;
+}
+
+.botao-cadastro {
+    width: 150px;
+    height: 40px;
+    background-color: orangered;
+    color: white;
+}
+
+.botao-usuarios {
+    width: 250px;
+    height: 50px;
+    padding: 3px 2px 3px 2px;
+    background-color: white;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
